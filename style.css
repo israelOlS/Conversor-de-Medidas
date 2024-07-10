@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+body{
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    padding: 1.5rem;
+    width: 400px;
+}
+
+h1{
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.input-pag, .output-pag{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 1.2rem;
+}
+.input-pag label,
+.output-pag label{
+    margin-bottom: 0.4rem;
+    font-weight: bold;
+}
+
+select,
+input{
+    padding: 0.8rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    background-color: #eee;
+}
+
+.inputValidoEnt{
+    background-color: #9ceca7;
+}.myselect{
+    background-color:#9ceca7;
+}
+
+#from:hover{
+    background-color: #9ceca7;
+}
+
+button{
+    background-color: #4caf59;
+    border-radius:5px;
+    border: none;
+    color: #fff;
+    cursor: pointer;;
+    font-size: 1rem;
+    padding: 0.8rem 1.2rem;
+    opacity: .7;
+    transition: .4;
+}
+
+button:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.output-pag{
+    margin-top: 1.2rem;
+}
+#mensagem{
+    font-size: 1.1rem;
+    color:#366c34;
+    margin-top: .7rem;
+    text-align: center;
+}
